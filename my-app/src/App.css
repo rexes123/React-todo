@@ -1,0 +1,179 @@
+ body{
+  background-image: url(/img/vimal-s-h01HLa_uTtM-unsplash.jpg);
+  background-size:cover;
+
+} 
+
+/* body{
+  background-color: aqua;
+} */
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center;
+  align-items: center; */
+  /* margin-top: 50px; */
+  border: 1px solid black;
+  width: fit-content;
+  backdrop-filter: blur(10px);
+  /* max-width: 500px; */
+  /* height: 300px; */
+  margin-top: 15px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  
+
+
+
+
+}
+
+#order-list{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:column;
+  /* border: 1px solid black; */
+  /* border: 1px solid black; */
+}
+
+.itemList{
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid black; 
+  width: 340px;
+  padding-left: 10px;
+  /* margin-right: -10px */
+  
+
+}
+
+.input{
+  border-radius: 5px;
+  margin: 10px;
+  border-radius: none;
+  margin-left: 150px;
+}
+
+.addTodo{
+  margin-left: 100px;
+}
+.inputAndAddButton{
+  display: flex;
+  flex-direction: row;
+}
+.closeButton{
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
+        -1px -1px 10px rgba(255, 255, 255, 0.5);
+
+}
+
+.toggleButton{
+  border: none;
+  border-radius: 3px;
+  border-radius:30%; 
+  /* red, green, blue alpha */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
+        -1px -1px 10px rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+
+/* .closeButton{
+  background-image: url(/img/icons8-delete-30.png);
+} */
+
+
+.totalTask{
+  display: flex;
+  height: 0px;
+  background-color: transparent;
+}
+
+.totalInfo{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* .taskLeft{
+  border-radius: 10px;
+  width:max-content;;
+  font-size: 16px;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+
+  border-radius:30%; 
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
+        -1px -1px 10px rgba(255, 255, 255, 0.5);
+  height: 30px;
+
+} */
+
+.deleteAllTodos{
+  font-size: 16px;
+  padding: 10px;
+  height: 30px  ;
+  margin-left: 10px;
+  margin-top: 16px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 3px;
+  margin: 10px;
+  border-radius:30%; 
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
+        -1px -1px 10px rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+}
+
+
+.deleteAllTodos:hover{
+  background-color: grey;
+  color: #fff;
+}
+
+.taskInfo{
+  display: flex;
+  align-items: center;
+}
+
+.taskLeft {
+  margin-right: 10px; /* Add some spacing between the elements */
+  margin-left: 100px;
+}
+
+.clean-all{
+  margin-left: 225px;
+  margin-right: 70px;
+}
+
+.inline-button{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.inline-button{
+  margin-left: 60px;
+}
+
+.addTodo{
+
+}
